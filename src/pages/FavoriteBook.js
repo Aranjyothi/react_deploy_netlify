@@ -47,8 +47,8 @@ function FavoriteBook({item,favorite,addToFavorites,removeFromFavorites}) {
           <img src={item.imgUrl} alt={item.title}></img>
           </Link>
           <br></br>
-          Review:{item.review} <br /> 
-          Description:{item.description} 
+          {/* Review:{item.review} <br /> 
+          Description:{item.description}  */}
        
           <br></br>
         

@@ -1,6 +1,6 @@
 import React from 'react'
 // import Button from './Button'
-import {Link, useLocation } from 'react-router-dom'
+// import {Link, useLocation } from 'react-router-dom'
 
 function DisplayBooks({data,addToFavorites,removeFromFavorites,favorite,item}) {
   const alreadyFavorited = (item) => {
@@ -16,11 +16,14 @@ function DisplayBooks({data,addToFavorites,removeFromFavorites,favorite,item}) {
 console.log(data)
   return (
     <div className='container'>
+       <h2>List of books</h2>
 <ul>
   {data?.Books?.map((item)=>{
   
     return(
+    
       <li key={item.id}>
+         
        <h3>{item.title} </h3>
         <img src={item.imgUrl} alt={item.title}/>
       <h3> Author:{item.author}</h3>

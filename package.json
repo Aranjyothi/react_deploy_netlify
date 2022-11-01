@@ -1,7 +1,7 @@
 {
   "name": "library-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/Aranjyothi/BookShelf-mid-mod-project/tree/main/BookShelfApp",
+  "homepage": "https://github.com/Aranjyothi/react_deploy_netlify",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.2",
